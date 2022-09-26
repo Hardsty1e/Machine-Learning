@@ -1,0 +1,23 @@
+Steps in a KNN algo:
+
+Importing Libraries
+Reading/Loading Dataset
+Data Visualization and Data Normalization
+Splitting the dataset into training and testing
+Training the model and Predicting from model
+
+
+#Importing Libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
+
+
+#Loading Dataset
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+#assign names to dataset columns
+names = ["sepal_length", "sepal_width", "petal_length", "petal_width", "Class"]
+dataset = pd.read_csv(url, names = names)
