@@ -1,2 +1,2 @@
 # Machine-Learning
-Machine Learning CampusX 
+Machine Learning CampusX Course
